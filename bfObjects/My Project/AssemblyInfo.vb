@@ -2,11 +2,11 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' Allgemeine Informationen über eine Assembly werden über die folgenden 
-' Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
-' die einer Assembly zugeordnet sind.
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
 
-' Werte der Assemblyattribute überprüfen
+' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("bfObjects")> 
 <Assembly: AssemblyDescription("")> 
@@ -17,18 +17,18 @@ Imports System.Runtime.InteropServices
 
 <Assembly: ComVisible(False)>
 
-'Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird.
-<Assembly: Guid("b0065d53-3a6b-4475-bca2-cb9d3dd362dc")> 
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("58c40515-92dc-4e2d-b298-095e60768e24")> 
 
-' Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
+' Version information for an assembly consists of the following four values:
 '
-'      Hauptversion
-'      Nebenversion 
-'      Buildnummer
+'      Major Version
+'      Minor Version 
+'      Build Number
 '      Revision
 '
-' Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
-' übernehmen, indem Sie "*" eingeben:
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
