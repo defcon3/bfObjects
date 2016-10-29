@@ -67,7 +67,9 @@
     <Compile Include="Enumerations.vb" />
     <Compile Include="Event.vb" />
     <Compile Include="EventType.vb" />
+    <Compile Include="ListMarketCatalogueRequestParams.vb" />
     <Compile Include="MarketCatalogue.vb" />
+    <Compile Include="ListMarketCatalogueRequest.vb" />
     <Compile Include="MarketDescription.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
