@@ -1,3 +1,3 @@
 ﻿Public Class Class1
-    Property neu As Int32
+    Property neu As String
 End Class
