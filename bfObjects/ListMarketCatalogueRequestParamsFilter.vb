@@ -1,22 +1,22 @@
 ﻿Public Class ListMarketCatalogueRequestParamsFilter
-    Public Sub New(Optional eventTypeIds As List(Of String) = Nothing, Optional ByVal marketCoutries As List(Of String) = Nothing, Optional ByVal marketTypeCodes As List(Of String) = Nothing, Optional ByVal marketStartTime As ListMarketCatalogueRequestParamsFilterStartTime = Nothing)
-        If Not IsNothing(eventTypeIds) Then
-            _eventTypeIds = eventTypeIds
+    Public Sub New(Optional ByVal _eventTypeIds As List(Of String) = Nothing, Optional ByVal _marketCoutries As List(Of String) = Nothing, Optional ByVal _marketTypeCodes As List(Of String) = Nothing, Optional ByVal _marketStartTime As ListMarketCatalogueRequestParamsFilterStartTime = Nothing)
+        If Not IsNothing(_eventTypeIds) Then
+            eventTypeIds = _eventTypeIds
         End If
-        If Not IsNothing(marketCoutries) Then
-            _marketCountries = marketCoutries
+        If Not IsNothing(_marketCoutries) Then
+            marketCountries = _marketCoutries
         End If
-        If Not IsNothing(marketTypeCodes) Then
-            _marketTypeCodes = marketTypeCodes
+        If Not IsNothing(_marketTypeCodes) Then
+            marketTypeCodes = _marketTypeCodes
         End If
-        If Not IsNothing(marketStartTime) Then
-            _marketStartTime = marketStartTime
+        If Not IsNothing(_marketStartTime) Then
+            marketStartTime = _marketStartTime
         End If
     End Sub
 
-    Public ReadOnly Property _eventTypeIds As New List(Of String)
-    Public ReadOnly Property _marketCountries As New List(Of String)
-    Public ReadOnly Property _marketTypeCodes As New List(Of String)
-    Public ReadOnly Property _marketStartTime As New ListMarketCatalogueRequestParamsFilterStartTime
+    Public ReadOnly Property eventTypeIds As New List(Of String)
+    Public ReadOnly Property marketCountries As New List(Of String)
+    Public ReadOnly Property marketTypeCodes As New List(Of String)
+    Public ReadOnly Property marketStartTime As New ListMarketCatalogueRequestParamsFilterStartTime
 
 End Class

@@ -1,14 +1,14 @@
 ﻿Public Class ListMarketCatalogueRequestParamsFilterStartTime
-    Public Sub New(Optional ByVal from As String = vbNullString, Optional ByVal [to] As String = vbNullString)
-        If Not from = vbNullString Then
-            _from = from
+    Public Sub New(Optional ByVal _from As String = vbNullString, Optional ByVal _to As String = vbNullString)
+        If Not _from = vbNullString Then
+            [from] = _from
         End If
-        If Not [to] = vbNullString Then
-            _to = [to]
+        If Not _to = vbNullString Then
+            [to] = _to
         End If
     End Sub
 
-    Public ReadOnly Property _from As String
-    Public ReadOnly Property _to As String
+    Public ReadOnly Property [from] As String
+    Public ReadOnly Property [to] As String
 
 End Class
