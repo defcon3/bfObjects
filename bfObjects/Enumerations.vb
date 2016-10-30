@@ -9,5 +9,14 @@
         FIXED_ODDS = 6
     End Enum
 
+    Public Enum MarketSort
+        MINIMUM_TRADED = 1
+        MAXIMUM_TRADED = 2
+        MINIMUM_AVAILABLE = 3
+        MAXIMUM_AVAILABLE = 4
+        FIRST_TO_START = 5
+        LAST_TO_START = 6
+    End Enum
+
 
 End Module

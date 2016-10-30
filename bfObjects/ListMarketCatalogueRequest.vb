@@ -15,12 +15,11 @@
     ''' </summary>
     ''' <returns></returns>
     Public ReadOnly Property _id As Integer = 1
-    Public ReadOnly Property _listmarketcatalogprequestparams As New ListMarketCatalogueRequestParams
+    Public ReadOnly Property _listmarketcataloguerequestparams As New ListMarketCatalogueRequestParams
 
-    Public Sub New(Optional ByVal jsonrpc As String = "2.0", Optional ByVal nomore As String = "2.0")
+    Public Sub New(Optional ByVal listmarketcataloguerequestparams As ListMarketCatalogueRequestParams = Nothing)
 
-        _jsonrpc = jsonrpc
-        _nomore = nomore
+        _listmarketcataloguerequestparams = listmarketcataloguerequestparams
 
     End Sub
 End Class

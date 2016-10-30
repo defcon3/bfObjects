@@ -68,6 +68,8 @@
     <Compile Include="Event.vb" />
     <Compile Include="EventType.vb" />
     <Compile Include="ListMarketCatalogueRequestParams.vb" />
+    <Compile Include="ListMarketCatalogueRequestParamsFilter.vb" />
+    <Compile Include="ListMarketCatalogueRequestParamsFilterStartTime.vb" />
     <Compile Include="MarketCatalogue.vb" />
     <Compile Include="ListMarketCatalogueRequest.vb" />
     <Compile Include="MarketDescription.vb" />
