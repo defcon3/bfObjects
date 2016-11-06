@@ -63,17 +63,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Competition.vb" />
-    <Compile Include="Enumerations.vb" />
-    <Compile Include="Event.vb" />
-    <Compile Include="EventType.vb" />
-    <Compile Include="listantwort.vb" />
-    <Compile Include="ListMarketCatalogueRequestParams.vb" />
-    <Compile Include="ListMarketCatalogueRequestParamsFilter.vb" />
-    <Compile Include="ListMarketCatalogueRequestParamsFilterStartTime.vb" />
-    <Compile Include="MarketCatalogue.vb" />
-    <Compile Include="ListMarketCatalogueRequest.vb" />
-    <Compile Include="MarketDescription.vb" />
+    <Compile Include="clsFilter.vb" />
+    <Compile Include="clsListMarketCatalogue.vb" />
+    <Compile Include="clsParams.vb" />
+    <Compile Include="clsStartTime.vb" />
+    <Compile Include="modEnumerations.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -89,8 +83,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="RunnerCatalog.vb" />
-    <Compile Include="StartTime.vb" />
+    <Compile Include="structMarketCatalogueResponse.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
