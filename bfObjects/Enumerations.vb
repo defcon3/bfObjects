@@ -18,5 +18,10 @@
         LAST_TO_START = 6
     End Enum
 
+    Public Structure structNeu
+        Public Property jsorpc As String
+        Public result As List(Of MarketCatalogue)
+        Public id As Integer
+    End Structure
 
 End Module

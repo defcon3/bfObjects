@@ -67,6 +67,7 @@
     <Compile Include="Enumerations.vb" />
     <Compile Include="Event.vb" />
     <Compile Include="EventType.vb" />
+    <Compile Include="listantwort.vb" />
     <Compile Include="ListMarketCatalogueRequestParams.vb" />
     <Compile Include="ListMarketCatalogueRequestParamsFilter.vb" />
     <Compile Include="ListMarketCatalogueRequestParamsFilterStartTime.vb" />
