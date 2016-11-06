@@ -15,11 +15,6 @@
     ''' </summary>
     ''' <returns></returns>
     Public ReadOnly Property id As Integer = 1
-    Public ReadOnly Property listmarketcataloguerequestparams As New ListMarketCatalogueRequestParams
+    Public Property params As New Params
 
-    Public Sub New(Optional ByVal _listmarketcataloguerequestparams As ListMarketCatalogueRequestParams = Nothing)
-
-        listmarketcataloguerequestparams = _listmarketcataloguerequestparams
-
-    End Sub
 End Class
