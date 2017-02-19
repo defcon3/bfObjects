@@ -63,6 +63,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsEventType.vb" />
+    <Compile Include="clsEventTypeResult.vb" />
     <Compile Include="clsFilter.vb" />
     <Compile Include="clsListEventTypes.vb" />
     <Compile Include="clsListMarketCatalogue.vb" />
