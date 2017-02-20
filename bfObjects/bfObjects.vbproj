@@ -67,6 +67,7 @@
     <Compile Include="clsEventTypeResult.vb" />
     <Compile Include="clsEventTypeResultResponse.vb" />
     <Compile Include="clsFilter.vb" />
+    <Compile Include="clsListEvents.vb" />
     <Compile Include="clsListEventTypes.vb" />
     <Compile Include="clsListMarketCatalogue.vb" />
     <Compile Include="clsMarketFilter.vb" />
