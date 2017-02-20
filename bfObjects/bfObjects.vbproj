@@ -69,6 +69,7 @@
     <Compile Include="clsFilter.vb" />
     <Compile Include="clsListEventTypes.vb" />
     <Compile Include="clsListMarketCatalogue.vb" />
+    <Compile Include="clsMarketFilter.vb" />
     <Compile Include="clsParams.vb" />
     <Compile Include="clsStartTime.vb" />
     <Compile Include="modEnumerations.vb" />
