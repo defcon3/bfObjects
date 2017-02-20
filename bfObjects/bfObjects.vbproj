@@ -63,6 +63,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsEvent.vb" />
+    <Compile Include="clsEventResult.vb" />
+    <Compile Include="clsEventResultResponse.vb" />
     <Compile Include="clsEventType.vb" />
     <Compile Include="clsEventTypeResult.vb" />
     <Compile Include="clsEventTypeResultResponse.vb" />
