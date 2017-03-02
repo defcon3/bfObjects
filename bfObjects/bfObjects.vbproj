@@ -63,19 +63,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAvailableToBack.vb" />
+    <Compile Include="clsAvailableToLay.vb" />
     <Compile Include="clsEvent.vb" />
     <Compile Include="clsEventResult.vb" />
     <Compile Include="clsEventResultResponse.vb" />
     <Compile Include="clsEventType.vb" />
     <Compile Include="clsEventTypeResult.vb" />
     <Compile Include="clsEventTypeResultResponse.vb" />
+    <Compile Include="clsEx.vb" />
     <Compile Include="clsFilter.vb" />
     <Compile Include="clsListEvents.vb" />
     <Compile Include="clsListEventTypes.vb" />
+    <Compile Include="clsListMarketBook.vb" />
     <Compile Include="clsListMarketCatalogue.vb" />
+    <Compile Include="clsMarketBook.vb" />
+    <Compile Include="clsMarketBookParams.vb" />
+    <Compile Include="clsMarketBookResponse.vb" />
+    <Compile Include="clsMarketBookRunnerClass.vb" />
     <Compile Include="clsMarketFilter.vb" />
+    <Compile Include="clsOrder.vb" />
     <Compile Include="clsParams.vb" />
+    <Compile Include="clsPriceProjection.vb" />
     <Compile Include="clsStartTime.vb" />
+    <Compile Include="clsTradedVolume.vb" />
     <Compile Include="modEnumerations.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
