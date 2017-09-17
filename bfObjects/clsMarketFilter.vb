@@ -1,3 +1,3 @@
 ﻿Public Class clsMarketFilter
-    Public Property eventTypeIds As String
+    Public Property eventTypeIds As System.String
 End Class
