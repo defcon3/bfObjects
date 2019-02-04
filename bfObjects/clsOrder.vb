@@ -14,4 +14,5 @@
     Public sizeLapsed As Double
     Public sizeCancelled As Double
     Public sizeVoided As Double
+    Public asdf As String
 End Class
