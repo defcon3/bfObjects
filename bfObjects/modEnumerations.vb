@@ -154,7 +154,7 @@
     End Enum
 
     Public Enum enumMarketSort As Integer
-        '◦Minimum traded volume
+        'Minimum traded volume
         MINIMUM_TRADED = 0
         'Maximum traded volume
         MAXIMUM_TRADED = 1
