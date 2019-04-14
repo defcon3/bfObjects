@@ -43,6 +43,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ABEresponses">
+      <HintPath>..\..\ABEresponses\ABEresponses\bin\Debug\ABEresponses.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
