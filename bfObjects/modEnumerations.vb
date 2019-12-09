@@ -136,7 +136,9 @@
         BY_VOID_TIME = 4
     End Enum
 
-
+    ''' <summary>
+    ''' Enjumeration der Sortierung
+    ''' </summary>
     Public Enum enumSortDir As Integer
         'Order from earliest value to latest e.g. lowest betId is first in the results.
         EARLIEST_TO_LATEST = 0
