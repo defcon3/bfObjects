@@ -87,6 +87,8 @@
     <Compile Include="clsMarketBookParams.vb" />
     <Compile Include="clsMarketBookResponse.vb" />
     <Compile Include="clsMarketBookRunnerClass.vb" />
+    <Compile Include="clsMarketCatalogue.vb" />
+    <Compile Include="clsMarketDescription.vb" />
     <Compile Include="clsMarketFilter.vb" />
     <Compile Include="clsOrder.vb" />
     <Compile Include="clsParams.vb" />
@@ -120,6 +122,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
