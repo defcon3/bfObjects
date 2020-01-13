@@ -2,7 +2,6 @@
     Public Property jsorpc As String
     Public result As List(Of structMarketCatalogue)
     Public id As Integer
-
     Public Structure structMarketCatalogue
         Public marketID As String
         Public marketName As String
