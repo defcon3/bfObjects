@@ -1,6 +1,7 @@
-﻿Public Class clsMarketBookResponse
-    Public Property jsonrpc As String
+﻿''' <summary>
+''' 
+''' </summary>
+Public Class clsMarketBookResponse
+    Inherits clsResponseRoot
     Public result As List(Of ABEresponses.MarketCatalogue)
-    Public id As Integer
-
 End Class

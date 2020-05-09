@@ -88,11 +88,13 @@
     <Compile Include="clsMarketBookResponse.vb" />
     <Compile Include="clsMarketBookRunnerClass.vb" />
     <Compile Include="clsMarketCatalogue.vb" />
+    <Compile Include="clsMarketCatalogueResponse.vb" />
     <Compile Include="clsMarketDescription.vb" />
     <Compile Include="clsMarketFilter.vb" />
     <Compile Include="clsOrder.vb" />
     <Compile Include="clsParams.vb" />
     <Compile Include="clsPriceProjection.vb" />
+    <Compile Include="clsResponseRoot.vb" />
     <Compile Include="clsStartTime.vb" />
     <Compile Include="clsTradedVolume.vb" />
     <Compile Include="modEnumerations.vb" />
