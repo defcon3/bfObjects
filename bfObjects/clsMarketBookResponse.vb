@@ -1,5 +1,5 @@
 ﻿''' <summary>
-''' 
+''' DEPRECATED
 ''' </summary>
 Public Class clsMarketBookResponse
     Inherits clsResponseRoot

@@ -87,7 +87,6 @@
     <Compile Include="clsMarketBookParams.vb" />
     <Compile Include="clsMarketBookResponse.vb" />
     <Compile Include="clsMarketBookRunnerClass.vb" />
-    <Compile Include="clsMarketCatalogue.vb" />
     <Compile Include="clsMarketCatalogueResponse.vb" />
     <Compile Include="clsMarketDescription.vb" />
     <Compile Include="clsMarketFilter.vb" />
