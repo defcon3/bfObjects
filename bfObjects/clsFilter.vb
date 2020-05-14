@@ -4,5 +4,5 @@
     Public marketTypeCodes As New List(Of String)
     Public marketStartTime As New clsStartTime
     Public eventIds As New List(Of String)
-    Public turnInPlayEnabled As Boolean = Nothing
+    Public turnInPlayEnabled As Boolean = True
 End Class
