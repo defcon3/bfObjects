@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsBettingTypeBase.vb" />
+    <Compile Include="clsExBestOffersOverrides.vb" />
     <Compile Include="clsMarketBookRequest.vb" />
     <Compile Include="clsAvailableToBack.vb" />
     <Compile Include="clsAvailableToLay.vb" />
@@ -94,6 +95,7 @@
     <Compile Include="clsParams.vb" />
     <Compile Include="clsPriceProjection.vb" />
     <Compile Include="clsResponseRoot.vb" />
+    <Compile Include="clsRollupModel.vb" />
     <Compile Include="clsStartTime.vb" />
     <Compile Include="clsTradedVolume.vb" />
     <Compile Include="modEnumerations.vb" />
