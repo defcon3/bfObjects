@@ -3,5 +3,5 @@
     ' Kommentar
     Public priceProjection As New clsPriceProjection
     'Public orderProjection As New List(Of String)
-    'Public matchProjection As New List(Of String)
+    ' Public matchProjection As New List(Of String)
 End Class
